@@ -1,0 +1,16 @@
+{
+  "build": {
+    "command": "next build",
+    "output": ".next",
+    "node_version": "18"
+  },
+  "deploy": {
+    "project_name": "m3u8-player",
+    "framework": "nextjs",
+    "branch": "main"
+  },
+  "environment": {
+    "NODE_VERSION": "18",
+    "NEXT_TELEMETRY_DISABLED": "1"
+  }
+}
